@@ -1,0 +1,36 @@
+{
+  "Title": "The Sealed Nectar - Biography of the Prophet",
+  "Author": "Safiur-Rahman al-Mubarakpuri",
+  "Category": "Seerah",
+  "Language": "en",
+  "Description": "An internationally acclaimed biography of Prophet Muhammad (peace be upon him), winner of the first prize in an international competition organized by the Muslim World League.",
+  "ISBN": "978-9960899558",
+  "Publisher": "Darussalam",
+  "PublicationYear": 1979,
+  "PageCount": 627,
+  "CoverImageUrl": null,
+  "License": "Public Domain",
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Title": "Introduction",
+      "Content": "This book is a comprehensive biography of the Prophet Muhammad (peace be upon him), covering his life from birth to death. It includes details about the social, political, and religious context of Arabia before Islam, the early years of the Prophet's life, his prophethood, the struggles of the early Muslim community, and the establishment of the Islamic state in Medina.\n\nThe author has meticulously researched and presented the information in a clear and accessible manner, making it suitable for both scholars and general readers interested in learning about the life of the Prophet.",
+      "Summary": "Overview of the book's scope and methodology",
+      "PageNumber": 1
+    },
+    {
+      "ChapterNumber": 2,
+      "Title": "Arabia Before Islam",
+      "Content": "Before the advent of Islam, Arabia was in a state of ignorance (Jahiliyyah). The Arabian Peninsula was inhabited by various tribes, each with its own customs and traditions. Polytheism was widespread, with the Ka'bah in Mecca housing 360 idols.\n\nThe society was largely tribal, with honor and tribal loyalty being paramount. Women had limited rights, and practices like female infanticide were common. The economy was based on trade and pastoral activities, with Mecca being an important commercial center due to its position on major trade routes.\n\nDespite the general state of ignorance, there were some monotheists known as Hanifs who rejected idol worship and sought the truth.",
+      "Summary": "The social, religious, and economic conditions in Arabia before Islam",
+      "PageNumber": 15
+    },
+    {
+      "ChapterNumber": 3,
+      "Title": "The Birth of the Prophet",
+      "Content": "The Prophet Muhammad (peace be upon him) was born in Mecca in the Year of the Elephant (570 CE), so named because of Abraha's failed attempt to destroy the Ka'bah. He was born into the noble Quraysh tribe, specifically the Banu Hashim clan.\n\nHis father, Abdullah ibn Abdul-Muttalib, died before his birth. His mother, Aminah bint Wahb, entrusted him to Halimah Sa'diah, a wet nurse from the Banu Sa'd tribe, as was customary among noble Arab families. He spent his early years in the desert with Halimah's family, which was considered beneficial for health and language development.\n\nThe infant Muhammad was blessed with many signs of his future prophethood, and his presence brought blessings to Halimah's household.",
+      "Summary": "The circumstances of the Prophet's birth and early childhood",
+      "PageNumber": 42
+    }
+  ]
+}

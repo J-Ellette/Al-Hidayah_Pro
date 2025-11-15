@@ -1,0 +1,333 @@
+/**
+ * Islamic Theme Enhancement for Al-Hidayah Pro
+ * Following UAE Design System while adding Islamic visual elements
+ */
+
+/* Islamic Card Enhancements - utility class */
+@utility islamic-card {
+  border-left: 4px solid var(--islamic-green-500);
+  background: linear-gradient(to right, var(--islamic-green-50) 0%, transparent 100%);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(74, 157, 92, 0.15);
+  }
+  
+  &:where(.dark *) {
+    background: linear-gradient(to right, var(--islamic-green-900) 0%, transparent 100%);
+    border-left-color: var(--islamic-green-400);
+  }
+}
+
+/* Prayer Times Highlight - utility class */
+@utility prayer-active {
+  background: linear-gradient(135deg, var(--islamic-green-50) 0%, var(--islamic-gold-50) 100%);
+  border: 2px solid var(--islamic-green-400);
+  box-shadow: 0 0 20px rgba(74, 157, 92, 0.2);
+  
+  &:where(.dark *) {
+    background: linear-gradient(135deg, var(--islamic-green-900) 0%, var(--islamic-gold-900) 100%);
+    border-color: var(--islamic-green-600);
+  }
+}
+
+@layer base {
+  :root {
+    /* Islamic Color Palette - Using UAE Design System colors */
+    --islamic-green-50: #F3FAF4;
+    --islamic-green-100: #E4F4E7;
+    --islamic-green-200: #CAE8CF;
+    --islamic-green-300: #A0D5AB;
+    --islamic-green-400: #6FB97F;
+    --islamic-green-500: #4A9D5C;
+    --islamic-green-600: #3F8E50;
+    --islamic-green-700: #2F663C;
+    --islamic-green-800: #2A5133;
+    --islamic-green-900: #24432B;
+    
+    /* Gold accents - Using UAE aegold colors */
+    --islamic-gold-50: #F9F7ED;
+    --islamic-gold-100: #F2ECCF;
+    --islamic-gold-200: #E6D7A2;
+    --islamic-gold-300: #D7BC6D;
+    --islamic-gold-400: #CBA344;
+    --islamic-gold-500: #B68A35;
+    --islamic-gold-600: #92722A;
+    
+    /* Update accent colors to Islamic theme */
+    --accent: var(--islamic-green-600);
+    --accent-foreground: oklch(0.985 0 0);
+    
+    /* Subtle Islamic patterns */
+    --pattern-opacity: 0.03;
+    --border-accent: var(--islamic-green-200);
+  }
+
+  .dark {
+    --accent: var(--islamic-green-500);
+    --accent-foreground: oklch(0.985 0 0);
+    --pattern-opacity: 0.05;
+    --border-accent: var(--islamic-green-800);
+  }
+  
+  /* Arabic Typography Enhancement */
+  .font-arabic {
+    font-family: 'Noto Kufi Arabic', 'Amiri', 'Scheherazade', 'Arial', serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 2;
+  }
+  
+  .font-arabic-bold {
+    font-family: 'Noto Kufi Arabic', 'Amiri', 'Scheherazade', serif;
+    font-weight: 700;
+  }
+  
+  /* Quranic Text Styling */
+  .quranic-text {
+    font-family: 'Noto Kufi Arabic', 'Amiri', 'Scheherazade', serif;
+    font-size: 1.75rem;
+    line-height: 2.5;
+    letter-spacing: 0.03em;
+    color: var(--islamic-green-900);
+    text-align: right;
+    direction: rtl;
+  }
+  
+  .dark .quranic-text {
+    color: var(--islamic-green-100);
+  }
+  
+  /* Hadith Text Styling */
+  .hadith-text {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+  }
+  
+  /* Gold Accent Elements */
+  .gold-accent {
+    color: var(--islamic-gold-600);
+  }
+  
+  .dark .gold-accent {
+    color: var(--islamic-gold-300);
+  }
+  
+  /* Islamic Decorative Elements */
+  .islamic-border {
+    border-top: 2px solid var(--islamic-green-200);
+    border-bottom: 2px solid var(--islamic-green-200);
+    padding: 1.5rem 0;
+  }
+  
+  .dark .islamic-border {
+    border-color: var(--islamic-green-800);
+  }
+  
+  /* Bismillah and Islamic Headers */
+  .bismillah-header {
+    font-family: 'Noto Kufi Arabic', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--islamic-green-700);
+    margin: 2rem 0;
+    direction: rtl;
+  }
+  
+  .dark .bismillah-header {
+    color: var(--islamic-green-300);
+  }
+  
+
+  
+  /* Verse Number Styling */
+  .verse-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--islamic-green-100);
+    color: var(--islamic-green-800);
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin: 0 0.5rem;
+  }
+  
+  .dark .verse-number {
+    background: var(--islamic-green-800);
+    color: var(--islamic-green-100);
+  }
+  
+  /* Authenticity Badge Colors */
+  .authenticity-sahih {
+    background: var(--islamic-green-100);
+    color: var(--islamic-green-800);
+    border: 1px solid var(--islamic-green-300);
+  }
+  
+  .dark .authenticity-sahih {
+    background: var(--islamic-green-900);
+    color: var(--islamic-green-200);
+    border-color: var(--islamic-green-700);
+  }
+  
+  .authenticity-hasan {
+    background: #EFFAFF;
+    color: #0073AB;
+    border: 1px solid #B6EAFF;
+  }
+  
+  .dark .authenticity-hasan {
+    background: #04334D;
+    color: #75DBFF;
+    border-color: #0073AB;
+  }
+  
+  /* Islamic Geometric Pattern Background (subtle) */
+  .islamic-pattern-bg {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .islamic-pattern-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: var(--pattern-opacity);
+    background-image: 
+      repeating-linear-gradient(45deg, var(--islamic-green-500) 0px, transparent 2px, transparent 10px),
+      repeating-linear-gradient(-45deg, var(--islamic-green-500) 0px, transparent 2px, transparent 10px);
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .islamic-pattern-bg > * {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Crescent Moon Icon Enhancement */
+  .crescent-icon {
+    filter: drop-shadow(0 2px 4px rgba(74, 157, 92, 0.3));
+  }
+  
+  /* Smooth transitions for Islamic elements */
+  .islamic-transition {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Arabic RTL Support Enhancement */
+  [dir="rtl"] {
+    text-align: right;
+  }
+  
+  [lang="ar"] {
+    font-family: 'Noto Kufi Arabic', 'Amiri', 'Scheherazade', serif;
+  }
+  
+  /* Subtle Islamic hover effects */
+  .islamic-hover:hover {
+    background: linear-gradient(to right, var(--islamic-green-50), transparent);
+    border-left-color: var(--islamic-gold-500);
+  }
+  
+  .dark .islamic-hover:hover {
+    background: linear-gradient(to right, var(--islamic-green-900), transparent);
+  }
+  
+  /* Sajdah (Prostration) Marker */
+  .sajdah-marker {
+    color: var(--islamic-gold-600);
+    font-weight: bold;
+    margin: 0 0.25rem;
+  }
+  
+  /* Islamic Divider */
+  .islamic-divider {
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--islamic-green-400), var(--islamic-gold-400), var(--islamic-green-400), transparent);
+    margin: 2rem 0;
+  }
+  
+  .dark .islamic-divider {
+    background: linear-gradient(to right, transparent, var(--islamic-green-600), var(--islamic-gold-600), var(--islamic-green-600), transparent);
+  }
+}
+
+/* Component-specific enhancements */
+@layer components {
+  /* Enhanced Sidebar with Islamic touch */
+  .sidebar-islamic {
+    border-right: 1px solid var(--islamic-green-100);
+  }
+  
+  .dark .sidebar-islamic {
+    border-right-color: var(--islamic-green-900);
+  }
+  
+  /* Quran Verse Card */
+  .verse-card-islamic {
+    @apply islamic-card rounded-lg p-6 mb-4;
+    border-top: 1px solid var(--islamic-green-100);
+  }
+  
+  .dark .verse-card-islamic {
+    border-top-color: var(--islamic-green-800);
+  }
+  
+  /* Hadith Card */
+  .hadith-card-islamic {
+    @apply rounded-lg p-6 mb-4;
+    border-left: 3px solid var(--islamic-gold-500);
+    background: linear-gradient(to right, var(--islamic-gold-50) 0%, transparent 100%);
+  }
+  
+  .dark .hadith-card-islamic {
+    background: linear-gradient(to right, var(--islamic-gold-900) 0%, transparent 100%);
+    border-left-color: var(--islamic-gold-400);
+  }
+  
+  /* Prayer Time Active State */
+  .prayer-time-active {
+    @apply prayer-active rounded-lg p-4;
+    animation: pulse-green 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  @keyframes pulse-green {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.9;
+    }
+  }
+  
+  /* Islamic Button Variant */
+  .button-islamic {
+    background: linear-gradient(135deg, var(--islamic-green-600), var(--islamic-green-700));
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button-islamic:hover {
+    background: linear-gradient(135deg, var(--islamic-green-700), var(--islamic-green-800));
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 157, 92, 0.3);
+  }
+  
+  /* Learning Progress Bar */
+  .progress-islamic {
+    background: linear-gradient(to right, var(--islamic-green-500), var(--islamic-gold-500));
+    height: 0.75rem;
+    border-radius: 9999px;
+    transition: width 0.5s ease;
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\Al-Hidayah_Pro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1AEF7E-4FD8-4E49-96C5-8AC26DB798C1}|backend\\AlHidayahPro.Data\\AlHidayahPro.Data.csproj|c:\\github\\al-hidayah_pro\\backend\\alhidayahpro.data\\migrations\\20251110012542_addnavigationandgamification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1AEF7E-4FD8-4E49-96C5-8AC26DB798C1}|backend\\AlHidayahPro.Data\\AlHidayahPro.Data.csproj|solutionrelative:backend\\alhidayahpro.data\\migrations\\20251110012542_addnavigationandgamification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1AEF7E-4FD8-4E49-96C5-8AC26DB798C1}|backend\\AlHidayahPro.Data\\AlHidayahPro.Data.csproj|c:\\github\\al-hidayah_pro\\backend\\alhidayahpro.data\\migrations\\20251109235605_addlearningfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1AEF7E-4FD8-4E49-96C5-8AC26DB798C1}|backend\\AlHidayahPro.Data\\AlHidayahPro.Data.csproj|solutionrelative:backend\\alhidayahpro.data\\migrations\\20251109235605_addlearningfeatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1AEF7E-4FD8-4E49-96C5-8AC26DB798C1}|backend\\AlHidayahPro.Data\\AlHidayahPro.Data.csproj|c:\\github\\al-hidayah_pro\\backend\\alhidayahpro.data\\migrations\\20251109233920_addaisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1AEF7E-4FD8-4E49-96C5-8AC26DB798C1}|backend\\AlHidayahPro.Data\\AlHidayahPro.Data.csproj|solutionrelative:backend\\alhidayahpro.data\\migrations\\20251109233920_addaisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1AEF7E-4FD8-4E49-96C5-8AC26DB798C1}|backend\\AlHidayahPro.Data\\AlHidayahPro.Data.csproj|c:\\github\\al-hidayah_pro\\backend\\alhidayahpro.data\\migrations\\20251109205323_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1AEF7E-4FD8-4E49-96C5-8AC26DB798C1}|backend\\AlHidayahPro.Data\\AlHidayahPro.Data.csproj|solutionrelative:backend\\alhidayahpro.data\\migrations\\20251109205323_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CB975F8-3065-4783-B2DE-2B0567D2ECF8}|backend\\AlHidayahPro.Api\\AlHidayahPro.Api.csproj|c:\\github\\al-hidayah_pro\\backend\\alhidayahpro.api\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB975F8-3065-4783-B2DE-2B0567D2ECF8}|backend\\AlHidayahPro.Api\\AlHidayahPro.Api.csproj|solutionrelative:backend\\alhidayahpro.api\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CB975F8-3065-4783-B2DE-2B0567D2ECF8}|backend\\AlHidayahPro.Api\\AlHidayahPro.Api.csproj|c:\\github\\al-hidayah_pro\\backend\\alhidayahpro.api\\controllers\\aisettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB975F8-3065-4783-B2DE-2B0567D2ECF8}|backend\\AlHidayahPro.Api\\AlHidayahPro.Api.csproj|solutionrelative:backend\\alhidayahpro.api\\controllers\\aisettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20251109235605_AddLearningFeatures.cs",
+              "DocumentMoniker": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Data\\Migrations\\20251109235605_AddLearningFeatures.cs",
+              "RelativeDocumentMoniker": "backend\\AlHidayahPro.Data\\Migrations\\20251109235605_AddLearningFeatures.cs",
+              "ToolTip": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Data\\Migrations\\20251109235605_AddLearningFeatures.cs",
+              "RelativeToolTip": "backend\\AlHidayahPro.Data\\Migrations\\20251109235605_AddLearningFeatures.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAewCkBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T01:45:32.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20251109233920_AddAiSettings.cs",
+              "DocumentMoniker": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Data\\Migrations\\20251109233920_AddAiSettings.cs",
+              "RelativeDocumentMoniker": "backend\\AlHidayahPro.Data\\Migrations\\20251109233920_AddAiSettings.cs",
+              "ToolTip": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Data\\Migrations\\20251109233920_AddAiSettings.cs",
+              "RelativeToolTip": "backend\\AlHidayahPro.Data\\Migrations\\20251109233920_AddAiSettings.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAKsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T01:44:59.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20251109205323_InitialCreate.cs",
+              "DocumentMoniker": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Data\\Migrations\\20251109205323_InitialCreate.cs",
+              "RelativeDocumentMoniker": "backend\\AlHidayahPro.Data\\Migrations\\20251109205323_InitialCreate.cs",
+              "ToolTip": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Data\\Migrations\\20251109205323_InitialCreate.cs",
+              "RelativeToolTip": "backend\\AlHidayahPro.Data\\Migrations\\20251109205323_InitialCreate.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAewGQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T01:44:23.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AiService.cs",
+              "DocumentMoniker": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Api\\Services\\AiService.cs",
+              "RelativeDocumentMoniker": "backend\\AlHidayahPro.Api\\Services\\AiService.cs",
+              "ToolTip": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Api\\Services\\AiService.cs",
+              "RelativeToolTip": "backend\\AlHidayahPro.Api\\Services\\AiService.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAAJ4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T01:43:42.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251110012542_AddNavigationAndGamification.cs",
+              "DocumentMoniker": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Data\\Migrations\\20251110012542_AddNavigationAndGamification.cs",
+              "RelativeDocumentMoniker": "backend\\AlHidayahPro.Data\\Migrations\\20251110012542_AddNavigationAndGamification.cs",
+              "ToolTip": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Data\\Migrations\\20251110012542_AddNavigationAndGamification.cs",
+              "RelativeToolTip": "backend\\AlHidayahPro.Data\\Migrations\\20251110012542_AddNavigationAndGamification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T01:43:07.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AiSettingsController.cs",
+              "DocumentMoniker": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Api\\Controllers\\AiSettingsController.cs",
+              "RelativeDocumentMoniker": "backend\\AlHidayahPro.Api\\Controllers\\AiSettingsController.cs",
+              "ToolTip": "C:\\GitHub\\Al-Hidayah_Pro\\backend\\AlHidayahPro.Api\\Controllers\\AiSettingsController.cs",
+              "RelativeToolTip": "backend\\AlHidayahPro.Api\\Controllers\\AiSettingsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T01:41:54.407Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

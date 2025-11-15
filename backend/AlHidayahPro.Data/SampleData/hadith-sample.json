@@ -1,0 +1,50 @@
+[
+  {
+    "Book": "Book of Faith",
+    "BookNumber": 1,
+    "HadithNumber": "1",
+    "ArabicText": "قال رسول الله صلى الله عليه وسلم: \"بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَالحَجِّ، وَصَوْمِ رَمَضَانَ\"",
+    "EnglishText": "Allah's Messenger (ﷺ) said: \"Islam is based on five principles: To testify that none has the right to be worshipped but Allah and Muhammad is Allah's Messenger, to offer the (compulsory congregational) prayers dutifully and perfectly, to pay Zakat (i.e., obligatory charity), to perform Hajj (i.e., Pilgrimage to Mecca), and to observe fast during the month of Ramadan.\"",
+    "Grade": "Sahih",
+    "Narrator": "Ibn Umar",
+    "Chapter": "The Five Pillars of Islam"
+  },
+  {
+    "Book": "Book of Faith",
+    "BookNumber": 1,
+    "HadithNumber": "2",
+    "ArabicText": "عن أبي هريرة رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: \"الإيمان بضع وسبعون شعبة، فأفضلها قول لا إله إلا الله، وأدناها إماطة الأذى عن الطريق، والحياء شعبة من الإيمان\"",
+    "EnglishText": "Abu Huraira reported: The Messenger of Allah (ﷺ) said: \"Faith has over seventy branches, the most excellent of which is the declaration that there is no god but Allah, and the humblest of which is the removal of what is injurious from the path; and modesty is a branch of faith.\"",
+    "Grade": "Sahih",
+    "Narrator": "Abu Huraira",
+    "Chapter": "Branches of Faith"
+  },
+  {
+    "Book": "Book of Prayer",
+    "BookNumber": 2,
+    "HadithNumber": "425",
+    "ArabicText": "قال النبي صلى الله عليه وسلم: \"مفتاح الجنة الصلاة ومفتاح الصلاة الطهور\"",
+    "EnglishText": "The Prophet (ﷺ) said: \"The key to Paradise is prayer, and the key to prayer is cleanliness.\"",
+    "Grade": "Hasan",
+    "Narrator": "Jabir bin Abdullah",
+    "Chapter": "The Excellence of Prayer"
+  },
+  {
+    "Book": "Book of Righteousness",
+    "BookNumber": 8,
+    "HadithNumber": "1003",
+    "EnglishText": "The Messenger of Allah (ﷺ) said: \"The best among you are those who have the best manners and character.\"",
+    "Grade": "Sahih",
+    "Narrator": "Abu Huraira",
+    "Chapter": "Good Character"
+  },
+  {
+    "Book": "Book of Knowledge",
+    "BookNumber": 3,
+    "HadithNumber": "224",
+    "EnglishText": "The Prophet (ﷺ) said: \"Seeking knowledge is an obligation upon every Muslim.\"",
+    "Grade": "Sahih",
+    "Narrator": "Anas bin Malik",
+    "Chapter": "The Virtue of Seeking Knowledge"
+  }
+]

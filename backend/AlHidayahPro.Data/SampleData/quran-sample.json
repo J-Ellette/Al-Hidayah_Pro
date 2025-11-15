@@ -1,0 +1,68 @@
+[
+  {
+    "Number": 1,
+    "ArabicName": "الفاتحة",
+    "EnglishName": "Al-Fatihah",
+    "EnglishTranslation": "The Opening",
+    "NumberOfAyahs": 7,
+    "RevelationType": "Meccan",
+    "Verses": [
+      {
+        "AyahNumber": 1,
+        "ArabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "EnglishTranslation": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+        "Transliteration": "Bismillahi ar-rahmani ar-rahim",
+        "JuzNumber": 1,
+        "PageNumber": 1
+      },
+      {
+        "AyahNumber": 2,
+        "ArabicText": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "EnglishTranslation": "[All] praise is [due] to Allah, Lord of the worlds.",
+        "Transliteration": "Alhamdu lillahi rabbi al-'alamin",
+        "JuzNumber": 1,
+        "PageNumber": 1
+      },
+      {
+        "AyahNumber": 3,
+        "ArabicText": "الرَّحْمَٰنِ الرَّحِيمِ",
+        "EnglishTranslation": "The Entirely Merciful, the Especially Merciful,",
+        "Transliteration": "Ar-rahmani ar-rahim",
+        "JuzNumber": 1,
+        "PageNumber": 1
+      },
+      {
+        "AyahNumber": 4,
+        "ArabicText": "مَالِكِ يَوْمِ الدِّينِ",
+        "EnglishTranslation": "Sovereign of the Day of Recompense.",
+        "Transliteration": "Maliki yawmi ad-din",
+        "JuzNumber": 1,
+        "PageNumber": 1
+      },
+      {
+        "AyahNumber": 5,
+        "ArabicText": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "EnglishTranslation": "It is You we worship and You we ask for help.",
+        "Transliteration": "Iyyaka na'budu wa iyyaka nasta'in",
+        "JuzNumber": 1,
+        "PageNumber": 1
+      },
+      {
+        "AyahNumber": 6,
+        "ArabicText": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+        "EnglishTranslation": "Guide us to the straight path.",
+        "Transliteration": "Ihdina as-sirata al-mustaqim",
+        "JuzNumber": 1,
+        "PageNumber": 1
+      },
+      {
+        "AyahNumber": 7,
+        "ArabicText": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "EnglishTranslation": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
+        "Transliteration": "Sirata alladhina an'amta 'alayhim ghayri al-maghdubi 'alayhim wa la ad-dallin",
+        "JuzNumber": 1,
+        "PageNumber": 1
+      }
+    ]
+  }
+]
